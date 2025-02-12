@@ -1,0 +1,61 @@
+.title {
+	text-align: center;
+	color: greenyellow;
+}
+
+.text {
+	text-align: center;
+}
+
+.dicta {
+	color: gold;
+}
+
+.expec {
+	color: red;
+}
+
+.title-n1 {
+	text-align: center;
+	color: white;
+}
+
+.title-n2 {
+	text-align: center;
+	color: white;
+}
+
+.title-n3 {
+	text-align: center;
+	color: chocolate;
+}
+
+.div-list {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: violet;
+}
+
+.div-listn2 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: rgb(0, 255, 0);
+}
+
+.div-listn3 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: gold;
+}
+
+.item {
+	color: white;
+}
+
+.contact {
+	text-align: center;
+	display: block;
+
+	font-weight: bold;
+	background-color: aqua;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width= , initial-scale=1.0" />
+		<title>Login</title>
+		<style>
+			h2 {
+				text-align: center;
+				background-color: rgb(153, 255, 0);
+			}
+
+			p span {
+				color: red;
+				font-weight: bold;
+				text-decoration: underline;
+			}
+
+			body {
+				background-color: gold;
+			}
+
+			a {
+				display: block;
+				text-align: center;
+				background-color: brown;
+				color: chartreuse;
+			}
+
+			form {
+				text-align: center;
+			}
+
+			textarea {
+				width: 250px;
+				height: 150px;
+			}
+		</style>
+	</head>
+	<body>
+		<h2>Login</h2>
+		<a href="/index.html">Home page</a>
+		<form>
+			<fieldset>
+				<legend>Formani to'ldiring</legend>
+				<label for="name">Ismingizni kiriting:</label>
+				<input type="name" placeholder="Ismingizni kiriting..." />
+				<br />
+				<br />
+				<label for="name">Familiyangizni kiriting:</label>
+				<input type="name" placeholder="Familiyangizni kiriting..." />
+				<br />
+				<br />
+				<label for="email">Emailingizni kiriting:</label>
+				<input type="email" placeholder="Emailingizni kiriting..." />
+				<br />
+				<br />
+				<label for="date">Tug'ilgan sanangiz</label>
+				<input type="date" />
+				<br />
+				<br />
+				<label for="number">Telefon raqamingizni kiriting:</label>
+				<input type="number" placeholder="+998" />
+				<br />
+				<br />
+				<label for="number">Qo'shimcha raqamingizni kiriting:</label>
+				<input type="number" placeholder="+998" />
+				<br />
+				<br />
+				<label for="text">Talabamisiz: </label>
+				<input type="checkbox" />
+				<br />
+				<p><span>IT ACADEMY ANDIJAN</span> o'quv markazida qaysi gruhda o'qisiz</p>
+				<label for="radio">N1: </label>
+				<input type="radio" name="radio" />
+				<label for="radio">N2: </label>
+				<input type="radio" name="radio" />
+				<label for="radio">N3: </label>
+				<input type="radio" name="radio" />
+				<label for="radio">N4: </label>
+				<input type="radio" name="radio" />
+				<label for="radio">N5: </label>
+				<input type="radio" name="radio" />
+				<p>Qaysi yo'nalish bo'yicha o'qimoqchisiz</p>
+				<br />
+				<label for="fanlar">Faningizni tanlang:</label>
+				<select>
+					<optgroup label="Aniq fanlar">
+						<option value="matematika">Matematika</option>
+						<option value="fizika">Fizika</option>
+						<option value="informatika">Informatika</option>
+						<option value="tarix">Tarix</option>
+					</optgroup>
+					<optgroup label="Tabiiy fanlar">
+						<option value="kimyo">Kimyo</option>
+						<option value="biologiya">Biologiya</option>
+						<option value="fizika" disabled>Fizika</option>
+						<option value="geografiya">Geografiya</option>
+						<option value="meteorologiya">Meteorologiya</option>
+					</optgroup>
+				</select>
+				<br />
+				<br />
+				<textarea placeholder="Xulosa qoldiring..."></textarea>
+				<br />
+				<br />
+				<button type="submit">Send</button>
+				<button type="reset">Reset</button>
+			</fieldset>
+		</form>
+	</body>
+</html>
